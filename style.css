@@ -1,0 +1,47 @@
+body{
+  padding-top: 140px;
+  background-image: url("sfondo.jpeg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  color: #ffffff;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#btn-white {
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  border: 1px;
+  border-radius: 50px;
+  border-width: 20px;
+  border-color: yellow;
+  text-decoration: none;
+  padding: 4px 16px;
+}
+
+#btn-white:hover { color: white;
+  background-color: #CF839C;
+  text-decoration: none;
+}
+
+.content-container {
+  margin: 80px 0;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  float: left;
+}
